@@ -9,7 +9,7 @@ def fetch_wind_gust_data(latitude, longitude):
     # Send a GET request to the API
     response = requests.get(url)
 
-    # Check if the request was successful
+    # Check if the request was successful kasyap 
     if response.status_code == 200:
         data = response.json()
         return data
