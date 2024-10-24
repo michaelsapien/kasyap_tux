@@ -41,7 +41,7 @@ def plot_wind_gusts(data):
         print("Wind Gusts data not found in the response.")
 
 def main():
-    # Bengaluru coordinates
+    print('test data')
     latitude = 12.9716
     longitude = 77.5946
 
